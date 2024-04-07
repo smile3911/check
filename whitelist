@@ -22,5 +22,7 @@ local player = game.Players.LocalPlayer
 if isWeinzwhitelisted(player) then 
   loadstring(game:HttpGet("https://raw.githubusercontent.com/smile3911/Version3/main/Loader", true))()
 else
- print("Access denied. Whitelist by discord.gg/5q8qjQSr9G")
+ game.Players.PlayerAdded:Connect(function(player)
+    player:Kick("not whitelisted")
+end)
 end
