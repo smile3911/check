@@ -1,0 +1,7 @@
+local key = "8b211da73b7a4ce3a06e2612ee62abdd"
+
+pcall(function()
+    if key == game:HttpGet("https://https://keysystem.ml/verify/your_app_name?verify_key="..key) then
+        
+    end
+end)
