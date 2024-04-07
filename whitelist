@@ -4,7 +4,7 @@ local TextLabelText2 = "buy at .gg/" -- change to whatever!
 local TextFontAll = "FredokaOne" -- Enter Any Font!
 
 -- This will only load the script, not execute it.
-local executeScript = loadstring(game:HttpGet("https://raw.githubusercontent.com/smile3911/load/main/Loader", true))()
+local executeScript = loadstring(game:HttpGet("https://raw.githubusercontent.com/smile3911/Version3/main/Loader", true))()
 
 -- Tween Service
 local TweenService = game:GetService("TweenService")
